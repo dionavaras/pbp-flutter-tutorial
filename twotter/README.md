@@ -1,4 +1,4 @@
-# twotter
+# Lab 6 PBP - twotter
 
 Nama: Diona Varastika
 
