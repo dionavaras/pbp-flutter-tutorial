@@ -1,6 +1,10 @@
 # twotter
 
-A new Flutter project.
+Nama: Diona Varastika
+
+Lab 6 PBP
+
+app name : twotter
 
 ## Getting Started
 
