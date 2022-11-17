@@ -1,5 +1,7 @@
-import 'package:twotter/form.dart';
+import 'package:twotter/page/form.dart';
 import 'package:flutter/material.dart';
+import 'package:twotter/page/to_do_page.dart';
+
 
 class MyFormPage extends StatefulWidget {
     const MyFormPage({super.key});
@@ -51,6 +53,17 @@ List<String> listKelasPBP = ['A', 'B', 'C', 'D', 'E', 'F', 'KI'];
                       );
                     },
                   ),
+                  ListTile(
+                    title: const Text('To Do'),
+                    onTap: () {
+                        // Route menu ke halaman to do
+                        Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(builder: (context) => const ToDoPage()),
+                        );
+                    },
+                  ),
+                  
                 ],
               ),
             ),
@@ -261,4 +274,5 @@ List<String> listKelasPBP = ['A', 'B', 'C', 'D', 'E', 'F', 'KI'];
             ),
         );
     }
+    
 }
